@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="code.jquery.com_jquery-3.7.1.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+<style>
+
+@media (max-width: 639px) {
+#boxes{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    margin-left: 50px;
+}
+#dmnu{
+    margin-right: 30px;
+}
+}
+@media (min-width: 1600px) {
+#boxes{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-left: 10px;
+}
+}
+
+</style>
+
+
+</head>
+<body>
+    <header class="bg-gray-900 body-font text-white">
+        <div class="container  flex flex-row justify-between   md:flex  p-5  sm:justify-between md:flex-row items-center">
+       
+            <span class="ml-3 text-xl"><i>Riz's Wretch</i></span>
+          <div id="Nemu" class="md:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="white">
+  <path d="M4.83398 6.66699H21.7229M4.83398 13.0003H13.2784M4.83398 19.3337H21.7229" stroke="white" stroke-width="2.11111" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+          </div>
+          <div id="Daki" class="hidden"><i class="fa-solid fa-x"></i></div>
+          <nav id="navLink" class=" hidden md:flex flex-wrap items-center text-base justify-center ">
+            <a class="mr-5 hover:text-gray-900">Link 1</a>
+            <a class="mr-5 hover:text-gray-900">Link 2</a>
+            <a class="mr-5 hover:text-gray-900">Link 3</a>
+          </nav>
+            
+         
+        </div>
+      </header>
+<div id="container" class="flex flex-row"> 
+
+      <div id="main1"  class="w-[80%] h-[800px]  lg:w-[70%] ">
+         <h2  class="m-10 text-4xl">This is the main heading</h2>
+         <p class="ml-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quam quidem commodi in. assumenda, nemo consequatur beatae.</p>
+
+         <p class="ml-10 mt-8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, est quaerat. Quae hic saepe similique amet expedita ipsam quis corrupti molestias veritatis ad enim qui non, eius incidunt, explicabo nisi quasi deserunt sequi? Impedit velit hic, assumenda eveniet voluptates cumque?</p>
+        
+        <!-- sec1 here -->
+        <div id="boxes" class="container   sm:grid-cols-1
+        sm:ml-[200px]
+        sm:mt-8
+        md:ml-[16px]
+        md:col-span-2
+        grid grid-cols-2
+        2xl:grid-cols-2 
+        2xl:ml-36
+        xl:grid-cols-3
+        
+        md:grid-cols-2
+       
+        ml-6 text-white gap-8 mt-6">
+<div id="sec1">
+<div id="boxi1" class="h-[200px] w-[250px] border-black border-4"> 
+    <div id="bxp11" class="h-[30%] bg-black text-3xl p-2"> Card One</div>
+    <div id="bxp12" class="h-[70%] text-black leading-[18px] p-2 ">Lorem consecte ab ducimus eius, ipsum commodi iure nemo veniam ad suscipit. Debitis impedit deleniti consectetur totam cupiditate cumque vel quidem, qui reiciendis.</div>
+
+</div>
+</div>
+        <!-- sec1 here -->
+        
+<div id="sec2">
+<div id="boxi2" class="h-[200px] w-[250px]   border-black border-4"> 
+    <div id="bxp21" class="h-[30%] bg-black text-3xl p-2">Card Two</div>
+    <div id="bxp22" class="h-[70%]  text-black leading-[18px] p-2">Lorem consecte ab ducimus eius, ipsum commodi iure nemo veniam ad suscipit. Debitis impedit deleniti consectetur totam cupiditate cumque vel quidem, qui reiciendis.</div>
+</div>
+</div>
+        <!-- sec1 here -->
+        
+<div id="sec3">
+<div id="boxi3" class="h-[200px] w-[250px]   border-black border-4"> 
+    <div id="bxp31" class="h-[30%] bg-black text-3xl p-2">Card Three</div>
+    <div id="bxp32" class="h-[70%]  text-black leading-[18px] p-2">Lorem consecte ab ducimus eius, ipsum commodi iure nemo veniam ad suscipit. Debitis impedit deleniti consectetur totam cupiditate cumque vel quidem, qui reiciendis.</div>
+</div>
+</div>
+        <!-- sec1 here -->
+        
+<div id="sec4">
+<div id="boxi4" class="h-[200px] w-[250px]   border-black border-4"> 
+    <div id="bxp41" class="h-[30%] bg-black text-3xl p-2">Card Four</div>
+    <div id="bxp42" class="h-[70%]  text-black leading-[18px] p-2">Lorem consecte ab ducimus eius, ipsum commodi iure nemo veniam ad suscipit. Debitis impedit deleniti consectetur totam cupiditate cumque vel quidem, qui reiciendis.</div>
+</div>
+</div>
+        <!-- sec1 here -->
+        
+<div id="sec5">
+<div id="boxi5" class="h-[200px] w-[250px]   border-black border-4"> 
+    <div id="bxp51" class="h-[30%] bg-black text-3xl p-2">Card Five</div>
+    <div id="bxp52" class="h-[70%]  text-black leading-[18px] p-2">Lorem consecte ab ducimus eius, ipsum commodi iure nemo veniam ad suscipit. Debitis impedit deleniti consectetur totam cupiditate cumque vel quidem, qui reiciendis.</div>
+</div>
+</div>
+</div>
+
+
+         </div>
+
+
+
+           <!-- Ty Me ltr ncrmcy shl prk th wrd bhsss vl rrl thus vd -->
+
+<div id="MYGoddesKritantaLucrecia"
+class="bg-gray-900 h-[160px] w-[300px] text-white 
+hidden
+
+
+
+"
+> 
+    <div id="ctrOfUnVrsa" class="list-none "> 
+        <li class="hover:border-2 hover:border-white hover:border-solid p-3">Sign Up</li>
+        <li class="hover:border-2 hover:border-white hover:border-solid p-3">Login</li>
+        <li class="hover:border-2 hover:border-white hover:border-solid p-3">Destroy</li>
+    </div>
+</div>
+
+         <div id="main2"  class="hidden w-[20%] h-[800px] bg-gray-900 text-white lg:w-[30%] md:ml-1 sm:hidden md:flex">
+           <h4 class="p-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, fuga.</h4>
+         </div>
+         
+      <script>
+        $(document).ready(function(){
+$('#Nemu').click(function(){
+$('#MYGoddesKritantaLucrecia').slideDown()
+$('#Nemu').hide()
+$('#Daki').show(function(){
+    $(this).css(
+        { 'rotate':'180deg',
+        'transition':'1s'
+    } 
+    )
+    $('#Daki').click(function(){
+        $('#Daki').hide();
+        $('#Nemu').show();
+        $('#MYGoddesKritantaLucrecia').slideUp()
+
+    })
+
+})
+});
+        });
+      </script>
+
+</body>
+</html>
